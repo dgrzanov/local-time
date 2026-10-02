@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000101 /* LocalTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* LocalTimeApp.swift */; };
+		A00000000000000000000102 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* Models.swift */; };
+		A00000000000000000000103 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* Repositories.swift */; };
+		A00000000000000000000104 /* TimeCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* TimeCalculations.swift */; };
+		A00000000000000000000105 /* CSVTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* CSVTransferService.swift */; };
+		A00000000000000000000106 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* UIUtilities.swift */; };
+		A00000000000000000000107 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* DashboardView.swift */; };
+		A00000000000000000000108 /* EntryEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* EntryEditorView.swift */; };
+		A00000000000000000000109 /* ProjectManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* ProjectManagerView.swift */; };
+		A0000000000000000000010A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000A /* SettingsView.swift */; };
+		A0000000000000000000010B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000B /* Assets.xcassets */; };
+		A00000000000000000000111 /* TimeCalculationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* TimeCalculationsTests.swift */; };
+		A00000000000000000000112 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* RepositoryTests.swift */; };
+		A00000000000000000000113 /* CSVTransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* CSVTransferTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00000000000000000000201;
+			remoteInfo = LocalTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* LocalTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTimeApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 /* TimeCalculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCalculations.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* CSVTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVTransferService.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* EntryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryEditorView.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* ProjectManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManagerView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00000000000000000000011 /* TimeCalculationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCalculationsTests.swift; sourceTree = "<group>"; };
+		A00000000000000000000012 /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		A00000000000000000000013 /* CSVTransferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVTransferTests.swift; sourceTree = "<group>"; };
+		A00000000000000000000021 /* LocalTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000022 /* LocalTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000600 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000601 /* Sources/LocalTime */,
+				A00000000000000000000602 /* Tests/LocalTimeTests */,
+				A00000000000000000000603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000601 /* Sources/LocalTime */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* LocalTimeApp.swift */,
+				A00000000000000000000002 /* Models.swift */,
+				A00000000000000000000003 /* Repositories.swift */,
+				A00000000000000000000004 /* TimeCalculations.swift */,
+				A00000000000000000000005 /* CSVTransferService.swift */,
+				A00000000000000000000006 /* UIUtilities.swift */,
+				A00000000000000000000007 /* DashboardView.swift */,
+				A00000000000000000000008 /* EntryEditorView.swift */,
+				A00000000000000000000009 /* ProjectManagerView.swift */,
+				A0000000000000000000000A /* SettingsView.swift */,
+				A0000000000000000000000B /* Assets.xcassets */,
+			);
+			path = Sources/LocalTime;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000602 /* Tests/LocalTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000011 /* TimeCalculationsTests.swift */,
+				A00000000000000000000012 /* RepositoryTests.swift */,
+				A00000000000000000000013 /* CSVTransferTests.swift */,
+			);
+			path = Tests/LocalTimeTests;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000021 /* LocalTime.app */,
+				A00000000000000000000022 /* LocalTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000201 /* LocalTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000801 /* Build configuration list for PBXNativeTarget "LocalTime" */;
+			buildPhases = (
+				A00000000000000000000511 /* Sources */,
+				A00000000000000000000501 /* Frameworks */,
+				A00000000000000000000521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalTime;
+			productName = LocalTime;
+			productReference = A00000000000000000000021 /* LocalTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00000000000000000000202 /* LocalTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000802 /* Build configuration list for PBXNativeTarget "LocalTimeTests" */;
+			buildPhases = (
+				A00000000000000000000512 /* Sources */,
+				A00000000000000000000502 /* Frameworks */,
+				A00000000000000000000522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00000000000000000000302 /* PBXTargetDependency */,
+			);
+			name = LocalTimeTests;
+			productName = LocalTimeTests;
+			productReference = A00000000000000000000022 /* LocalTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A00000000000000000000201 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A00000000000000000000202 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A00000000000000000000201;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000800 /* Build configuration list for PBXProject "LocalTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000600;
+			productRefGroup = A00000000000000000000603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000201 /* LocalTime */,
+				A00000000000000000000202 /* LocalTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000010B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000101 /* LocalTimeApp.swift in Sources */,
+				A00000000000000000000102 /* Models.swift in Sources */,
+				A00000000000000000000103 /* Repositories.swift in Sources */,
+				A00000000000000000000104 /* TimeCalculations.swift in Sources */,
+				A00000000000000000000105 /* CSVTransferService.swift in Sources */,
+				A00000000000000000000106 /* UIUtilities.swift in Sources */,
+				A00000000000000000000107 /* DashboardView.swift in Sources */,
+				A00000000000000000000108 /* EntryEditorView.swift in Sources */,
+				A00000000000000000000109 /* ProjectManagerView.swift in Sources */,
+				A0000000000000000000010A /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000111 /* TimeCalculationsTests.swift in Sources */,
+				A00000000000000000000112 /* RepositoryTests.swift in Sources */,
+				A00000000000000000000113 /* CSVTransferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00000000000000000000302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00000000000000000000201 /* LocalTime */;
+			targetProxy = A00000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A00000000000000000000711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localtime.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localtime.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localtime.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalTime.app/Contents/MacOS/LocalTime";
+			};
+			name = Debug;
+		};
+		A00000000000000000000722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localtime.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalTime.app/Contents/MacOS/LocalTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000800 /* Build configuration list for PBXProject "LocalTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000701 /* Debug */,
+				A00000000000000000000702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000801 /* Build configuration list for PBXNativeTarget "LocalTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000711 /* Debug */,
+				A00000000000000000000712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000802 /* Build configuration list for PBXNativeTarget "LocalTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000721 /* Debug */,
+				A00000000000000000000722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000400 /* Project object */;
+}
